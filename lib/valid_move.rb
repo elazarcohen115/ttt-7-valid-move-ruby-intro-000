@@ -7,8 +7,8 @@ def position_taken? (board, index)
   end
 end
 
-def valid_move? (move)
-  if !position_taken? && move > -1 && move < 9
+def valid_move? (move, board)
+  if !position_taken?(board[move] && move > -1 && move < 9
     return true
   else
     return false
