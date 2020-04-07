@@ -4,5 +4,7 @@
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above
 
 def valid_move (move)
-  if position_taken? == false
-    
+  if position_taken? == false && -1 < move < 9
+    return true
+else
+  return false
