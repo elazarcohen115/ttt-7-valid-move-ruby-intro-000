@@ -15,3 +15,4 @@ def valid_move (move)
   else
     return false
   end
+end
