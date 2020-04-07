@@ -1,4 +1,4 @@
-def valid_move (move)
+def valid_move (position_taken, move)
   if position_taken? == false && -1 < move < 9
     return true
   else
