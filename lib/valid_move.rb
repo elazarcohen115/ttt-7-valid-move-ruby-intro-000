@@ -12,6 +12,6 @@ end
 def valid_move (move)
   if !position_taken? && -1 < move < 9
     return true
-else
-  return false
-end
+  else
+    return false
+  end
